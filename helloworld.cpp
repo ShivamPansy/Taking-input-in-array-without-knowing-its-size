@@ -9,7 +9,7 @@ int main()
     while(true){
         cin>>val;
         vec.push_back(val);
-        if(cin.get()=='\n'){
+        if(cin.get()=='\n'){             //This line breaks the infinite loop when enter is pressed. The input should be taken using space.
             break;
         }
     }
